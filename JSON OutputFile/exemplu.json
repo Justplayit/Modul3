@@ -1,0 +1,142 @@
+{
+  "Bills on ports and immigration were submitted by Senator Brownback, Republican of Kansas": {
+    "immigration": {
+      "relations": null,
+      "part-of-speech": "NN"
+    },
+    "of": {
+      "relations": null,
+      "part-of-speech": "IN"
+    },
+    "and": {
+      "relations": null,
+      "part-of-speech": "CC"
+    },
+    "were": {
+      "relations": null,
+      "part-of-speech": "VBD"
+    },
+    "Brownback": {
+      "relations": [
+        [
+          "case",
+          "by"
+        ],
+        [
+          "compound",
+          "Senator"
+        ],
+        [
+          "appos",
+          "Republican"
+        ]
+      ],
+      "part-of-speech": "NNP"
+    },
+    "on": {
+      "relations": null,
+      "part-of-speech": "IN"
+    },
+    "Kansas": {
+      "relations": [
+        [
+          "case",
+          "of"
+        ]
+      ],
+      "part-of-speech": "NNP"
+    },
+    "Bills": {
+      "relations": [
+        [
+          "nmod",
+          "ports"
+        ]
+      ],
+      "part-of-speech": "NNS"
+    },
+    "submitted": {
+      "relations": [
+        [
+          "nsubjpass",
+          "Bills"
+        ],
+        [
+          "auxpass",
+          "were"
+        ],
+        [
+          "nmod",
+          "Brownback"
+        ]
+      ],
+      "part-of-speech": "VBN"
+    },
+    "Senator": {
+      "relations": null,
+      "part-of-speech": "NNP"
+    },
+    "by": {
+      "relations": null,
+      "part-of-speech": "IN"
+    },
+    "Republican": {
+      "relations": [
+        [
+          "nmod",
+          "Kansas"
+        ]
+      ],
+      "part-of-speech": "NNP"
+    },
+    "ports": {
+      "relations": [
+        [
+          "case",
+          "on"
+        ],
+        [
+          "cc",
+          "and"
+        ],
+        [
+          "conj",
+          "immigration"
+        ]
+      ],
+      "part-of-speech": "NNS"
+    }
+  },
+  "My name is Bill": {
+    "name": {
+      "relations": [
+        [
+          "nmod:poss",
+          "My"
+        ]
+      ],
+      "part-of-speech": "NN"
+    },
+    "My": {
+      "relations": null,
+      "part-of-speech": "PRP$"
+    },
+    "Bill": {
+      "relations": [
+        [
+          "nsubj",
+          "name"
+        ],
+        [
+          "cop",
+          "is"
+        ]
+      ],
+      "part-of-speech": "NNP"
+    },
+    "is": {
+      "relations": null,
+      "part-of-speech": "VBZ"
+    }
+  }
+}
