@@ -9,6 +9,3 @@ def sentenceTokenizer(text):
         if len(sentence) != 0:
             returnList.append(sentence.strip())
     return returnList
-
-
-print(sentenceTokenizer("Hello   ...My name is Lucian.!..    asdasdad fafa"))
