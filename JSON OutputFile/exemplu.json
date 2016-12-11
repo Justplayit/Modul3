@@ -1,61 +1,123 @@
 {
   "Bills on ports and immigration were submitted by Senator Brownback, Republican of Kansas": {
-    "immigration": {
-      "relations": null,
-      "part-of-speech": "NN"
-    },
     "of": {
-      "relations": null,
-      "part-of-speech": "IN"
+      "synonyms": [],
+      "part-of-speech": "IN",
+      "relations": null
     },
-    "and": {
-      "relations": null,
-      "part-of-speech": "CC"
-    },
-    "were": {
-      "relations": null,
-      "part-of-speech": "VBD"
-    },
-    "Brownback": {
-      "relations": [
-        [
-          "case",
-          "by"
-        ],
-        [
-          "compound",
-          "Senator"
-        ],
-        [
-          "appos",
-          "Republican"
-        ]
+    "Senator": {
+      "synonyms": [
+        "senator"
       ],
-      "part-of-speech": "NNP"
-    },
-    "on": {
-      "relations": null,
-      "part-of-speech": "IN"
+      "part-of-speech": "NNP",
+      "relations": null
     },
     "Kansas": {
+      "synonyms": [
+        "Kansas",
+        "Sunflower_State",
+        "KS",
+        "Kansa",
+        "Kansas_River",
+        "Kaw_River"
+      ],
+      "part-of-speech": "NNP",
       "relations": [
         [
           "case",
           "of"
         ]
+      ]
+    },
+    "and": {
+      "synonyms": [],
+      "part-of-speech": "CC",
+      "relations": null
+    },
+    "were": {
+      "synonyms": [
+        "be",
+        "exist",
+        "equal",
+        "constitute",
+        "represent",
+        "make_up",
+        "comprise",
+        "follow",
+        "embody",
+        "personify",
+        "live",
+        "cost"
       ],
-      "part-of-speech": "NNP"
+      "part-of-speech": "VBD",
+      "relations": null
     },
     "Bills": {
+      "synonyms": [
+        "bill",
+        "measure",
+        "account",
+        "invoice",
+        "note",
+        "government_note",
+        "bank_bill",
+        "banker's_bill",
+        "bank_note",
+        "banknote",
+        "Federal_Reserve_note",
+        "greenback",
+        "circular",
+        "handbill",
+        "broadside",
+        "broadsheet",
+        "flier",
+        "flyer",
+        "throwaway",
+        "poster",
+        "posting",
+        "placard",
+        "notice",
+        "card",
+        "billhook",
+        "peak",
+        "eyeshade",
+        "visor",
+        "vizor",
+        "beak",
+        "neb",
+        "nib",
+        "pecker",
+        "charge"
+      ],
+      "part-of-speech": "NNS",
       "relations": [
         [
           "nmod",
           "ports"
         ]
-      ],
-      "part-of-speech": "NNS"
+      ]
     },
     "submitted": {
+      "synonyms": [
+        "submit",
+        "subject",
+        "state",
+        "put_forward",
+        "posit",
+        "present",
+        "relegate",
+        "pass_on",
+        "bow",
+        "defer",
+        "accede",
+        "give_in",
+        "take",
+        "put_in",
+        "render",
+        "resign",
+        "reconcile"
+      ],
+      "part-of-speech": "VBN",
       "relations": [
         [
           "nsubjpass",
@@ -69,27 +131,68 @@
           "nmod",
           "Brownback"
         ]
-      ],
-      "part-of-speech": "VBN"
-    },
-    "Senator": {
-      "relations": null,
-      "part-of-speech": "NNP"
+      ]
     },
     "by": {
-      "relations": null,
-      "part-of-speech": "IN"
+      "synonyms": [
+        "by",
+        "past",
+        "aside",
+        "away"
+      ],
+      "part-of-speech": "IN",
+      "relations": null
+    },
+    "on": {
+      "synonyms": [
+        "on",
+        "along"
+      ],
+      "part-of-speech": "IN",
+      "relations": null
+    },
+    "Brownback": {
+      "synonyms": [],
+      "part-of-speech": "NNP",
+      "relations": [
+        [
+          "case",
+          "by"
+        ],
+        [
+          "compound",
+          "Senator"
+        ],
+        [
+          "appos",
+          "Republican"
+        ]
+      ]
     },
     "Republican": {
+      "synonyms": [
+        "Republican",
+        "republican",
+        "Republican_River"
+      ],
+      "part-of-speech": "NNP",
       "relations": [
         [
           "nmod",
           "Kansas"
         ]
-      ],
-      "part-of-speech": "NNP"
+      ]
     },
     "ports": {
+      "synonyms": [
+        "port",
+        "port_wine",
+        "embrasure",
+        "porthole",
+        "larboard",
+        "interface"
+      ],
+      "part-of-speech": "NNS",
       "relations": [
         [
           "case",
@@ -103,25 +206,79 @@
           "conj",
           "immigration"
         ]
+      ]
+    },
+    "immigration": {
+      "synonyms": [
+        "immigration",
+        "in-migration"
       ],
-      "part-of-speech": "NNS"
+      "part-of-speech": "NN",
+      "relations": null
     }
   },
   "My name is Bill": {
-    "name": {
-      "relations": [
-        [
-          "nmod:poss",
-          "My"
-        ]
+    "is": {
+      "synonyms": [
+        "be",
+        "exist",
+        "equal",
+        "constitute",
+        "represent",
+        "make_up",
+        "comprise",
+        "follow",
+        "embody",
+        "personify",
+        "live",
+        "cost"
       ],
-      "part-of-speech": "NN"
+      "part-of-speech": "VBZ",
+      "relations": null
     },
     "My": {
-      "relations": null,
-      "part-of-speech": "PRP$"
+      "synonyms": [],
+      "part-of-speech": "PRP$",
+      "relations": null
     },
     "Bill": {
+      "synonyms": [
+        "bill",
+        "measure",
+        "account",
+        "invoice",
+        "note",
+        "government_note",
+        "bank_bill",
+        "banker's_bill",
+        "bank_note",
+        "banknote",
+        "Federal_Reserve_note",
+        "greenback",
+        "circular",
+        "handbill",
+        "broadside",
+        "broadsheet",
+        "flier",
+        "flyer",
+        "throwaway",
+        "poster",
+        "posting",
+        "placard",
+        "notice",
+        "card",
+        "billhook",
+        "peak",
+        "eyeshade",
+        "visor",
+        "vizor",
+        "beak",
+        "neb",
+        "nib",
+        "pecker",
+        "charge"
+      ],
+      "part-of-speech": "NNP",
       "relations": [
         [
           "nsubj",
@@ -131,12 +288,41 @@
           "cop",
           "is"
         ]
-      ],
-      "part-of-speech": "NNP"
+      ]
     },
-    "is": {
-      "relations": null,
-      "part-of-speech": "VBZ"
+    "name": {
+      "synonyms": [
+        "name",
+        "gens",
+        "figure",
+        "public_figure",
+        "epithet",
+        "call",
+        "identify",
+        "nominate",
+        "make",
+        "appoint",
+        "constitute",
+        "mention",
+        "advert",
+        "bring_up",
+        "cite",
+        "refer",
+        "discover",
+        "key",
+        "key_out",
+        "distinguish",
+        "describe",
+        "list",
+        "diagnose"
+      ],
+      "part-of-speech": "NN",
+      "relations": [
+        [
+          "nmod:poss",
+          "My"
+        ]
+      ]
     }
   }
 }
