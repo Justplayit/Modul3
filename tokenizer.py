@@ -1,9 +1,9 @@
 import nltk
 import re
 
-def splitParagraphIntoSentences(paragraph):
-    sentenceEnders = re.compile('[.!?]')
-    sentenceList = sentenceEnders.split(paragraph)
+def sentenceTokenizer(text):
+    enders = re.compile('[.!?]')
+    sentenceList = enders.split(text)
     returnList=list()
     for sentence in sentenceList:
         if len(sentence) != 0:
@@ -11,4 +11,4 @@ def splitParagraphIntoSentences(paragraph):
     return returnList
 
 
-print(splitParagraphIntoSentences("Hello   ...My name is Lucian.!..    asdasdad fafa"))
+print(sentenceTokenizer("Hello   ...My name is Lucian.!..    asdasdad fafa"))
